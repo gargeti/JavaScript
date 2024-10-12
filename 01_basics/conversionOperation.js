@@ -68,3 +68,13 @@
 // console.log(typeof (str1+str2));
 // //hello, its me Eti Garg 
 // // string
+
+
+
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);//output=122  (treated as a string)
+console.log(1+2+"2");//output=33   (first primitive treated as a number then a string type)
+console.log(1+"2"+2);//output=122  (treated as a string also)
+console.log(3*5+3/3*6);//output=21 ((3*5)+((3/3)*6)=>15+6=>21)
