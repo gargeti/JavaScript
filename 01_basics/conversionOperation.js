@@ -72,9 +72,35 @@
 
 
 
-console.log("1"+2);
-console.log(1+"2");
-console.log("1"+2+2);//output=122  (treated as a string)
-console.log(1+2+"2");//output=33   (first primitive treated as a number then a string type)
-console.log(1+"2"+2);//output=122  (treated as a string also)
-console.log(3*5+3/3*6);//output=21 ((3*5)+((3/3)*6)=>15+6=>21)
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);//output=122  (treated as a string)
+// console.log(1+2+"2");//output=33   (first primitive treated as a number then a string type)
+// console.log(1+"2"+2);//output=122  (treated as a string also)
+// console.log(3*5+3/3*6);//output=21 ((3*5)+((3/3)*6)=>15+6=>21)
+// console.log(true);//output=true
+// console.log(+true);//output=1
+// console.log(+"");//output=0
+
+
+
+// let num1,num2,num3
+// num1=num2=num3=100+100;
+// console.log(num3);//output in all three cases is 200
+// console.log(typeof (num3));//number
+
+let counter=100
+// ++counter;
+// console.log(counter);//101
+
+// counter++;
+// console.log(counter);//101
+
+// counter--;
+// console.log(counter);//99
+
+--counter;
+console.log(counter);//99
+
+// link of prefix and postfix at mdn
+
