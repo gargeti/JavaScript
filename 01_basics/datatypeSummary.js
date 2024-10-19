@@ -42,3 +42,36 @@ console.log(typeof heros);//object
 console.log(typeof id);//symbol
 
 //link:- https://262.ecma-international.org/5.1/#SEC-11.4.3
+
+
+
+
+// ************************************************************************************************************************************
+// Stack (Primitive)[stack always take a copy of data], 
+// Heap (non_-Primitive)[heap are always take a reference of data and changes are done in the original copy]]
+let myyoutubename="mychannel"
+let anothername =myyoutubename
+console.log(anothername); //mychannel
+
+
+let myytbame="mychannel"
+let antrname =myyoutubename
+antrname="chaiaurcode"
+console.log(myyoutubename);//mychannel
+console.log(antrname); //chaiaurcode
+
+
+
+let userOne={
+      email:"fdtrwefy@gmail.com",
+      upi:"user223"// value store in heap wherefron userOne can accesed but the variable declared in stack 
+}
+let userTwo=userOne
+userTwo.email="hwdetdyw@gmail.com"//object can be accessed by .
+console.log(userOne.email);//hwdetdyw@gmail.com
+console.log(userTwo.email);//hwdetdyw@gmail.com
+
+
+
+
+// changes can be done in the original
