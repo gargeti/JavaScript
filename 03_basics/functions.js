@@ -67,3 +67,49 @@ return `${username} just logged in`
 
 // console.log(loggedinUserMessgae());//SAM just logged in
 // console.log(loggedinUserMessgae("Eti garg"));//Eti garg just logged in
+
+
+
+// function calculatecartprice(val1,val2,...num1){//...argument (this i rest or spread operator only can be discriminate on their uses.)now its rest
+//  return num1
+// }
+// console.log(calculatecartprice(200,300,240,450,210))// val1=>200,val2=>300 and all the other elements are stored in array => [ 240, 450, 210 ]
+
+
+
+// function calculatecartprice(...num1){//...argument (this i rest or spread operator only can be discriminate on their uses.)now its rest
+//  return num1
+// }
+// console.log(calculatecartprice(200,300,240,450,210))//[ 200, 300, 240, 450, 210 ]
+
+// ******************object
+// const user={
+//     username: "Eti garg",
+//     price: 199
+// }
+
+
+
+
+//*********************function
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleobject(user)//username is Eti garg and price is 199
+
+
+// ******************direct object *******************
+handleobject({
+    username:"sam",
+    price: 99
+})//username is sam and price is 99
+
+
+// *********Array***************
+const mynewArr=[200,600,300,500]
+
+function returnSecondVal(getArray){
+    return getArray[1]
+}
+console.log(returnSecondVal(mynewArr));
