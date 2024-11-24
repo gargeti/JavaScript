@@ -39,12 +39,32 @@ const obj3={...obj1,...obj2}
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-const course={
+
+
+
+// ****************destructuring****************
+// curle braces is for destructuring the data in a shorter format that is the
+ const course={
     coursename:"js in hindi",
     price:"999",
     conurseInstructor:"etigarg"}
 
     const{conurseInstructor}=course
     console.log(conurseInstructor);
-    const navbar=(pros)
 
+    
+// ************************************API****************************************
+// it is in the JSON(javascript object notation)format that used in the whole api indrustry.
+    // {
+    //     "name": "eti garg",
+    //     "coursename": "js in hindi",
+    //     "price": "free"
+    // }
+    // this is the method of calling api in the project and it is in string format so it uses{} and ""on each project.
+
+    // [
+    //     {},
+    //     {},
+    //     {}
+    // ]
+    // another type of calling api is the array format with [] braces.
