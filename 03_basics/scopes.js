@@ -48,3 +48,4 @@ console.log(a);//30
 
 
 // var create problms in scope so we avoid to use them. 
+// scope are different for the windows(via inspect) and node
