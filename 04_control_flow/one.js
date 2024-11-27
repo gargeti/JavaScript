@@ -48,15 +48,27 @@
 
 
 // *******Implicit scope or short hand notation******** 
-const balance=1000
-if(balance > 500) console.log("purchase");
+
+// const balance=1000
+//  if(balance > 500) console.log("purchase");
+
 
 // if(balance > 500) console.log("purchase"),console.log("item");//not a good practice of the code so avoid this type of programs of commas.
 
 
 
 
+// ***********************IF ELSEIF************************************************
 
+const amt=500
+if(amt<400){
+    console.log("cant purchase");
+}else if(amt<750){
+    console.log("may purchase");
+}else if(amt<1000){
+        console.log("immediately purchase");
+}
+console.log(`sold out at ${amt}` );
 
 
 
