@@ -38,13 +38,23 @@
 
 
 
-const score=200
-if(score>100){
-    let power="fly"
-    console.log(`user power: ${power}`);
-}
-console.log(`user power: ${power}`);
-// power is not defined
+// const score=200
+// if(score>100){
+//     let power="fly"
+//     console.log(`user power: ${power}`);
+// }
+// console.log(`user power: ${power}`);
+// // power is not defined
+
+
+// *******Implicit scope or short hand notation******** 
+const balance=1000
+if(balance > 500) console.log("purchase");
+
+// if(balance > 500) console.log("purchase"),console.log("item");//not a good practice of the code so avoid this type of programs of commas.
+
+
+
 
 
 
