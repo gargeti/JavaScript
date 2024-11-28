@@ -80,3 +80,11 @@ console.log(`sold out at ${amt}` );
 // ==equals to
 // !=notequalto
 // ===strictequalto with data type too
+
+
+
+
+
+
+
+// hffugugihhhgdtfy
