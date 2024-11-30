@@ -85,6 +85,8 @@ console.log(`sold out at ${amt}` );
 
 
 
+// Machine learning has emerged as a helpful and adaptable tool for improving the analysis and evaluation of complex water quality data (Mengyuan Zhu et al., 2022). Water quality monitoring is critical because surface water is essential for ecosystems and human use, but it is also polluted by human activities. A case study reveals the cost-effectiveness and efficiency of a new machine learning (ML)-based technique for computing the Water Quality Index (WQI), which use feature selection to reduce parameters while maintaining accuracy (Bui Quoc Lap et al. 2023). 
+
 
 
 // hffugugihhhgdtfy jgugucghchg
