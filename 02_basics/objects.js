@@ -42,3 +42,9 @@ JsUser.greetings2=function(){
 // console.log(JsUser.greetings);//[Function (anonymous)]
 console.log(JsUser.greetings());
 console.log(JsUser.greetings2());
+
+
+
+
+
+// FZDFXGFXFXGTD
